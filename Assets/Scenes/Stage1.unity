@@ -10536,6 +10536,19 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!65 &1168899535
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168899531}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3661241, y: 1.4115827, z: 0.29481262}
+  m_Center: {x: 0.00000044698365, y: 0.7123543, z: -0.019808352}
 --- !u!1 &1213239721
 GameObject:
   m_ObjectHideFlags: 0

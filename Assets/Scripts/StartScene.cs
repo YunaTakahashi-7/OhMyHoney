@@ -14,5 +14,6 @@ public class StartScene : MonoBehaviour
     public void SelectScene()
     {
         SelectSceneButton.SetActive(true);
+        StartTimeline.SetActive(false);
     }
 }
