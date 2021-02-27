@@ -33,5 +33,16 @@ public class Buttons : MonoBehaviour
     {
         SceneManager.LoadScene("Stage3");
     }
-
+    public void OnClick4()
+    {
+        SceneManager.LoadScene("Stage4");
+    }
+    public void OnClick5()
+    {
+        SceneManager.LoadScene("Stage5");
+    }
+    public void OnClick6()
+    {
+        SceneManager.LoadScene("Stage6");
+    }
 }
