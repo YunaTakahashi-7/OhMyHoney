@@ -11,12 +11,14 @@ public class EnemyMove2 : MonoBehaviour
     private NavMeshAgent navMeshAgent;
     private float distance;
     private bool chase;
+    public Animator Animator;
 
     void Start()
     {
         // NavMeshAgentを保持しておく
         navMeshAgent = GetComponent<NavMeshAgent>();
         chase = false;
+
     }
 
     // Update is called once per frame
@@ -37,10 +39,12 @@ public class EnemyMove2 : MonoBehaviour
         if (chase)
         {
             navMeshAgent.destination = player.transform.position;
+            Animator.Play("chase");
         }
         else
         {
             navMeshAgent.destination = defposi.transform.position;
+            Animator.Play("walk");
         }
     }
 
